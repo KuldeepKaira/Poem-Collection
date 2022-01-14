@@ -1,0 +1,101 @@
+.section-cta {
+  padding: 48px 96px 128px 96px;
+  background-color: #65a4c9;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #9dcef3;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(to right bottom, #9dcef3, #72adda);
+}
+
+.cta-text-box {
+  padding: 48px 64px 64px 64px;
+}
+
+.cta-heading {
+  font-size: 36px;
+  margin-bottom: 32px;
+  text-align: left;
+  color: #0f3047;
+}
+
+.cta-img-box {
+  background-image: url("https://i.ibb.co/28S45w2/cta-girl.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 32px;
+  row-gap: 24px;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.input {
+  width: 80%;
+  padding: 12px;
+  font-size: 18px;
+  font-family: inherit;
+  border: none;
+  background-color: #d0ebff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  margin-right: 100px;
+}
+.poem-input {
+  width: 80%;
+  height: 300px;
+  overflow-wrap: break-word;
+}
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.btn--form {
+  border: none;
+  width: 80%;
+  font-size: 20px;
+  padding: 12px;
+  font-family: inherit;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #04294b;
+  color: #d0ebff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--form:hover {
+  background-color: #073d70;
+}
+
+@media (max-width: 768px) {
+  .cta-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 425px) {
+  .section-cta {
+    padding: 20px;
+  }
+  .cta-text-box {
+    padding: 10px;
+  }
+  .cta-container {
+    width: 100%;
+    margin: 0 0;
+  }
+}

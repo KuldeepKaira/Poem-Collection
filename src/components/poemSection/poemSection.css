@@ -1,0 +1,83 @@
+.sectionTitle {
+  font-size: 60px;
+  color: rgb(15, 69, 119);
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.poemSection {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+}
+
+.poemsCards {
+  width: 100%;
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+  margin: 10px auto;
+}
+
+.poemCard {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.poemCard:hover {
+  transform: scale(0.95);
+}
+
+.poemCover {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.poemTitle {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  z-index: 120;
+}
+
+@media (max-width: 1024px) {
+  .poemsCards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .poemsCards {
+    row-gap: 0;
+    column-gap: 0;
+  }
+
+  .poemCard {
+    width: 100%;
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 425px) {
+  .sectionTitle {
+    font-size: 40px;
+  }
+  .poemsCards {
+    grid-template-columns: 1fr;
+  }
+}

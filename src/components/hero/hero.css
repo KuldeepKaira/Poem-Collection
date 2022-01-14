@@ -1,0 +1,107 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(205, 100%, 95%);
+  display: flex;
+  margin-top: 30px;
+}
+
+.heroDescription {
+  flex: 1;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.heroDescription h1 {
+  color: #0f4577;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 100px;
+  width: 450px;
+  text-align: left;
+}
+
+.heroDescription p {
+  font-size: 13px;
+  color: rgb(15, 69, 119);
+  margin-top: 10px;
+  width: 480px;
+  text-align: left;
+}
+
+.buttonContainer {
+  margin-top: 40px;
+  border: none;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #0f4577;
+  background-color: #4dabf7;
+  transition: all 0.4s;
+  border: none;
+  border-radius: 9px;
+  margin-right: 20px;
+}
+.btn:hover {
+  color: #e7f5ff;
+  background-color: #0f4577;
+}
+
+.poetsGlimpse {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.poetsIcon {
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: #e7f5ff;
+  margin-right: -10px;
+}
+
+.poetsGlimpse span {
+  margin-left: 15px;
+  color: rgb(15, 69, 119);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.heroImageBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImg {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .heroDescription h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .heroDescription p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero {
+    display: inline-block;
+  }
+  .heroImageBox {
+    display: none;
+  }
+}

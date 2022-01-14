@@ -1,0 +1,65 @@
+.appBar {
+  width: 100vw;
+  background-color: #0f3047;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 150;
+}
+
+.left {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.logoImg {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 5px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #4681ac;
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 12px;
+  }
+  .logoImg {
+    width: 45%;
+  }
+}
+
+@media (max-width: 425px) {
+  .left {
+    flex: 1;
+  }
+  .right {
+    flex: 3;
+  }
+
+  .logoImg {
+    width: 110%;
+  }
+}

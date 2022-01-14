@@ -1,0 +1,58 @@
+.poemData {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.leftPoemSectionContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.poemNumber {
+  font-size: 30px;
+  color: rgb(116, 116, 116);
+  margin-top: 10px;
+}
+.poemOneTitle {
+  width: 100%;
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(15, 48, 71);
+  text-align: center;
+}
+
+.poemText {
+  width: 100%;
+  margin-top: 30px;
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.poemAuthor {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.rightPoemSectionContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authorImg {
+  width: 50%;
+  transition: all 1s ease;
+}
+
+.authorImg:hover {
+  transform: scale(0.95);
+}
