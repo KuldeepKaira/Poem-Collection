@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./appBar.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const AppBar = (props) => {
-  const gotToPoemSection = () => {
+  const [id, setId] = useState("");
+  const params = useParams();
+
+  useEffect(() => {
+    setId(+params.poemId);
+  }, [params]);
+
+  const goToPoemSection = () => {
     window.scrollTo({ top: 600, behavior: "smooth" });
   };
   const goToAboutSection = () => {
@@ -25,9 +32,9 @@ const AppBar = (props) => {
         />
       </div>
       <div className="right">
-        <a onClick={gotToPoemSection}>Poems</a>
-        <a onClick={goToAboutSection}>About Me</a>
-        <a onClick={goToFormSection}>Submit Poem</a>
+        {id ? "" : <a onClick={goToPoemSection}>Poems</a>}
+        {id ? "" : <a onClick={goToAboutSection}>About Me</a>}
+        {id ? "" : <a onClick={goToFormSection}>Submit Poem</a>}
         {/* <a>Contact me</a> */}
         <a onClick={props.onsideBarClick}>Poems List</a>
       </div>

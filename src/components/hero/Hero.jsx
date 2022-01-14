@@ -2,6 +2,13 @@ import React from "react";
 import "./hero.css";
 
 const Hero = () => {
+  const goToPoemSection = () => {
+    window.scrollTo({ top: 600, behavior: "smooth" });
+  };
+  const goToAboutSection = () => {
+    window.scrollTo({ top: 1500, behavior: "smooth" });
+  };
+
   return (
     <div className="hero">
       <div className="heroDescription">
@@ -12,8 +19,12 @@ const Hero = () => {
           give it all a read.
         </p>
         <div className="buttonContainer">
-          <button className="btn">Start Reading</button>
-          <button className="btn">About Me &darr;</button>
+          <button className="btn" onClick={goToPoemSection}>
+            Start Reading
+          </button>
+          <button className="btn" onClick={goToAboutSection}>
+            About Me &darr;
+          </button>
         </div>
         <div className="poetsGlimpse">
           <img className="poetsIcon" src="assets/poets/poet-1.webp" />
