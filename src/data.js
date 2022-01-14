@@ -5,7 +5,7 @@ export const poemsData = [
     poem: `Jab Jab Dard Ka Baadal Chhaya\nJab Gham Ka Saya Lehraaya\nJab aansoo Palkon Tak Aaya\nJab Yeh Tanha Dil Ghabraaya\nHum Ne Dil Ko Yeh Samjhaya\nDil Aakhir Tu Kyun Rota Hai\nDuniya Mein Yun Hi Hota Hai\nYeh Jo Gehre Sannate Hain \nWagt Ne Sabko Hi Baante Hain\nThoda Gham Hai Sabka Qissa \nThodi Dhoop Hai Sabka Hissa\nAankh Teri Bekaar Hi Nam Hai\nHar Pal Ek Naya Mausam Hai\nKyun Tu Aise Pal Khota Hai\nDil aakhir Tu Kyun Rota Hai`,
     author: "Javed Akhtar",
     img: "https://i.ibb.co/pdjDdv3/javed-akhtar.webp",
-    cover: "https://i.ibb.co/vv0ZmdV/road.webp",
+    cover: "https://source.unsplash.com/hBzrr6m6-pc",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const poemsData = [
     poem: "Mai Shunya pe sawaar hoon\nBe adab sa mai khumar hoon\nMushkilo se mai kya darun\nMai khud keher hazaar hoon\nMai Shunya pe sawaar hoon\n\nKi unch neech se pare\nMajal aankh me bhare \nMai lad pada hu raat se \nMashaal haath me liye\nNa surya mere saath hai\nToh kya nayi ye baat hai\nWo sham ko tha dhal gya\nWo raat se tha darr gaya\nMai joognuon ka yaar hoon\nMai shunya pe sawaar hoon!\n\nKi bhawnaayein hai mar chuki\nSamwednaayein ab khatm hai\n   Ki ab dard se kya darun\nZindagi hi zakhm hai\nMai beech rah ki maat hoon\nBejaan-syaah raat hoon\nMai kaali ka shringaar hoon\nMai shunya pe sawar hoon!\n",
     author: "Zakir Khan",
     img: "https://i.ibb.co/5xMwbqt/Zakir-khan.webp",
-    cover: "https://i.ibb.co/vv0ZmdV/road.webp",
+    cover: "https://source.unsplash.com/1XgFFEG_RGA",
   },
   {
     id: 3,

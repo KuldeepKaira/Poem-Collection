@@ -27,18 +27,39 @@ const Hero = () => {
           </button>
         </div>
         <div className="poetsGlimpse">
-          <img className="poetsIcon" src="assets/poets/poet-1.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-2.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-3.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-4.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-5.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-6.webp" />
-          <img className="poetsIcon" src="assets/poets/poet-7.webp" />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/1KLbFj4/poet-1.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/HXJV8XW/poet-2.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/gy4t6T8/poet-3.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/r4p11cv/poet-4.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/9tsqWFG/poet-5.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/f1K4nK1/poet-6.webp"
+          />
+          <img
+            className="poetsIcon"
+            src="https://i.ibb.co/LZqSbMM/poet-7.webp"
+          />
           <span>1000+ poems that live in our hearts forever</span>
         </div>
       </div>
       <div className="heroImageBox">
-        <img className="heroImg" src="assets/hero.webp" />
+        <img className="heroImg" src="https://i.ibb.co/VwRsvBD/hero.webp" />
       </div>
     </div>
   );
